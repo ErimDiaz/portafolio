@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Erika Diaz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" id="fileCss" href="css/styles.css">    
+    <!-- <link rel="stylesheet" id="fileCss" href="css/styles-copy.css">    
+    <link rel="stylesheet" id="fileCss" href="css/styles-copycopy.css">     -->
+</head>
+<header>
+</header>
+<body>
+
+    <div class="tema-color">
+        <button class="open-panel" onclick="activarPanel()">COLORES</button>
+        <div class="cont-colores">
+            <button onclick="morado()">1</button>
+            <button onclick="gris()">2</button>
+            <button onclick="rosado()">3</button>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse rayita" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#divSobreMi">Sobre mi</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#Estudios">Estudios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#perfilp">Perfil profesional</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#habilidades">Habilidades</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#Portafoliop">Portafolio proyecto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <section id="hero">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7" id="nombre">
+                        <p class="uno">Erika Mayerli</p>
+                        <p class="dos">Diaz Rosas</p>
+                        <button><a class="nav-link active" aria-current="page" href="#redes">Contactame</a></button>
+                    </div>
+                    <div class="col-md-5" id="imagen">
+                        
+                        <img src="img/erika1.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sobremi">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 img">
+                        <img src="img/erikaseccion2.svg" alt="" id="i" width="100%">
+                    </div>
+                    <div id="divSobreMi" class="col-md-7 texto">
+                        <h4>Sobre mi</h4>
+                        <p>Soy una estudiante de analisis y desarrollo de software de VI trimestre del SENA. Disfruto
+                            enormemente creando interfaces atractivas y funcionales para aplicaciones web.Me apasiona
+                            ofrecer soluciones web de alta calidad que proporcionen a los usuarios una experiencia
+                            excepcional. Me emociona la idea de enfrentar proyectos desafiantes y colaborar con equipos
+                            talentosos para llevar a cabo ideas innovadoras.</p>
+                    </div>
+                </div>
+                <!-- <div class="linea">....................</div> -->
+            </div>
+        </section>
+        <hr style="border-bottom: 4px solid #C400C6; opacity: inherit;">
+        <section id="estudios">
+            <div id="Estudios" class="container">
+                <h3>Estudios</h3>
+                <div class="row img">
+                    <div class="col-md-4" >
+                        <div id="contenedorCirculo" class="d-flex align-items-center">
+                            | <div class="">
+                                <div class="circulo"></div>
+                                <img src="img/iconoseccion3.svg" alt="" title="Bachillerato">
+                            </div>
+                            <div id="contenedorTexto" class="texto">
+                                <p>2012-2018 Bachillerato</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 ">
+                        <div id="contenedorCirculo2" class="d-flex align-items-center">
+                            | <div class="">
+                                <div class="circulo"></div>
+                                <img src="img/iconoseccion3.svg" alt="" title="Bachillerato">
+                            </div>
+                            <div id="contenedorTexto2" class="texto">
+                                <p>2012-2018 Bachillerato</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 ">
+                        <div id="contenedorCirculo3" class="d-flex align-items-center">
+                            <div>
+                                <div class="circulo"></div>
+                                <img src="img/iconoseccion3.svg" alt="" title="Bachillerato">
+                            </div>
+                            <div id="contenedorTexto3" class="texto">
+                                <p>2012-2018 Bachillerato</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="perfilp">
+            <div class="container-fluid">
+                <h3>Perfil Profesional</h3>
+                <div class="row d-flex justify-content-evenly">
+                    <div class="col-md-2">
+                        <div id="divContenedor" class="text-center">
+                            <button>
+                                <img src="img/iconos/iconojavascript.svg" alt="Javascript">
+                            </button>
+                            <div id="cuadradoTexto" class="cuadrado">
+                                <p>Implementar funciones JavaScript innovadoras, como interacciones de usuario fluidas en menús desplegables, validación dinámica de formularios para una experiencia mejorada y la creación de galerías de imágenes interactivas que resaltan mi habilidad para mejorar la interactividad y la usabilidad en proyectos de desarrollo web.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div id="divContenedor1" class="text-center">
+                            <button>
+                            <img src="img/iconos/iconocss.svg" alt="CSS"></button>
+                            <div id="cuadradoTexto1" class="cuadrado">
+                                <p>Implementación de CSS para diseñar interfaces web visualmente impactantes. He aplicado estilos elegantes en formularios, creado diseños responsivos y atractivos, y personalizado la apariencia de elementos con animaciones suaves, demostrando mi capacidad para elevar la estética y la coherencia en mis proyectos de desarrollo web.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div id="divContenedor2" class="text-center">
+                            <button>
+                            <img src="img/iconos/iconofigma.svg" alt="Figma"></button>
+                            <div id="cuadradoTexto2" class="cuadrado">
+                                <p>Resalto mi habilidad para materializar visiones creativas mediante Figma. He dado vida a conceptos de desarrollo web al crear prototipos interactivos, diseñar interfaces intuitivas y colaborar en equipos multidisciplinarios. Mi experiencia en Figma demuestra mi capacidad para llevar proyectos desde la idea hasta la implementación con precisión y creatividad.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 ">
+                        <div id="divContenedor3" class="text-center">
+                            <button>
+                            <img src="img/iconos/iconohtml.svg" alt="HTML"></button>
+                            <div id="cuadradoTexto3" class="cuadrado">
+                                <p>Mi portafolio destaca mi maestría en la implementación de HTML para dar vida a proyectos de desarrollo web. He construido estructuras sólidas y semánticas, creado diseños atractivos y responsivos, e integrado contenido multimedia de manera fluida.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div id="divContenedor4" class="text-center">
+                            <button>
+                            <img src="img/iconos/iconophp.svg" alt="PHP"></button>
+                            <div id="cuadradoTexto4" class="cuadrado">
+                                <p>Aplicar PHP de manera efectiva en proyectos de desarrollo web. He creado sistemas de gestión de contenido personalizados, implementado funcionalidades dinámicas como formularios de contacto y autenticación de usuarios, y he interactuado con bases de datos para lograr soluciones web robustas e interactivas que ofrecen una experiencia excepcional a los usuarios.</p>
+                            </div>
+                        </div>
+                    </div>                
+                </div>
+            </div>
+        </section>
+        <section id="habilidades">
+            <div class="container">
+                <h3>Habilidades</h3>
+                <div class="row" style="justify-content: center;">
+                    <div class="col-md-3">
+                        <div class="cuadradoGris p-2">
+                            <img src="img/habilidades/creatividad.svg" alt="">
+                            <h2>Creatividad</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="cuadradoGris p-2">
+                            <img src="img/habilidades/segundahabilidad.svg" alt="">
+                            <h2>Creatividad</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="cuadradoGris p-2">                        
+                            <img src="img/habilidades/diploma.svg" alt="">
+                            <h2>Creatividad</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Portafoliop">
+            <div class="container">
+                <h3>Portafolio Proyectos</h3>
+                <div class="row">
+                    <div class="col-md-6 margin">
+                        <img src="img/imagen1.jpg" alt="">
+                        <img src="img/imagen2.jpg" alt="">
+                    </div>
+                    <div class="col-md-6 margin">
+                        <img src="img/imagen2.jpg" alt="">
+                        <img src="img/imagen1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+    <footer>
+        <div class="container d-flex justify-content-evenly">
+            <div id="redes" class="row">
+                <div class="col-md-2 text-center">
+                    <a href="https://github.com/ErimDiaz" target="_blank">
+                        <img src="img/redes/git.svg" alt="">
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a  href="https://wa.link/xihsfh" target="_blank">
+                    <img src="img/redes/Whatsapp.svg" alt="">
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <img src="img/redes/linkeding.svg" alt="">
+                </div>
+                <div class="col-md-2">
+                    <img src="img/redes/Instagram.svg" alt="">
+                </div>
+                <div class="col-md-2">
+                    <a href="https://www.facebook.com/profile.php?id=100059838844641" target="_blank">
+                        <img src="img/redes/facebook.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container ">
+            <div class="footerCopyright mb-4">
+                <img class="d-inline-block" src="img/copy.svg" alt="">
+                <p class="text-white d-inline-block">Copyright Erika Diaz</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/archivo.js"></script>
+
+</body>
+
+</html>
